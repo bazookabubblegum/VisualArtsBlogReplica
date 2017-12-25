@@ -8,7 +8,7 @@ body *{
 	color:#5f5f5f;
 }
 
-body .navigation{
+body{
 	display:block;
 	margin:0;
 	/*background-color:#000;*/
@@ -18,22 +18,26 @@ body .navigation{
 	
 }
 
-.navigation li{
+nav{
 	display:inline-block;
 	font-size:14px;
 	color:#5f5f5f;
 	
 }
-
-.navigation .logo{
+nav .logo{
 	position:absolute;
 	left:0px;	
 	width:50%;
 	height:20px;
 	padding-left:50px;
+	color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+	text-decoration: none;
 }
 
-.navigation .search{
+nav .search{
 	position:absolute;
 	right:0px;
 	width:20%;
@@ -63,15 +67,14 @@ body .navigation{
 }
 
 
-
-.articleBox h1{
+.articleBox p{
 	font-size:15px;
 	margin:1% 0;
 	text-align: center;
 	font-family:"Lato", sans-serif;
 }
 
-.articleBox h2{
+.articleBox h1{
 	color:#000;
 	font-size:60px;
 	margin:1% 0;
@@ -81,7 +84,7 @@ body .navigation{
 	font-family:"Lato", sans-serif;
 }
 
-.articleBox h3{
+.articleBox h2{
 	color:#5f5f5f;
 	font-size:20px;
 	margin:5% 0 3%;
@@ -90,9 +93,9 @@ body .navigation{
 }
 
 .articleBox p{
-	text-align:left;
+	text-align:center;
 	width:50%;
-	padding-left:300px;
+	padding-left:338px;
 	font-family:"Lato", sans-serif;
 	font-size:14px;
 }
@@ -137,18 +140,43 @@ p {
 	font-size:24px;
 }
 
-.chairs img{
-	display:inline-block;
-	width:34%;
-	/*get them to stack next to each other*/
+.columns{
+	width:100%;
+	height:700px;
+	display:block;
+	margin:50px auto;	/*get them to stack next to each other*/
 }
 
-.chairs p{
+.topleft{
+	display:inline-block;
+	width:49%;
+	margin:0 auto;
+	position:absolute;
+	left:0px;
+	padding:10px 200px;
+}	
+.topright{
+	right:0px;
+	display:inline-block;
+	width:50%;
+	margin:0 auto;
+	position:absolute;
+	padding:10px 25px;
+
+}
+.bottom{
+	position:absolute;
+	display:block;
+	width:50%;
+	margin:40px 40px;
+	padding:370px;
+}
+p{
 	display:block;
 	margin:auto;
 	text-align:left;
 	width:50%;
-	padding:20px 15px;
+	padding:30px 24px;
 }
 
 .likes{
@@ -163,4 +191,21 @@ p {
 .likes h1{
 	font-size:14px;
 	line-height:15px;
+}
+
+.articlenav ul{
+	display:block;
+	background-color:#d0cdcd;
+}
+
+.articlenav .leftarrow{
+	display:inline-block;
+	position:absolute;
+	left:0px;
+}
+
+.articlenav .rightarrow{
+	display:inline-block;
+	position:absolute;
+	right:0px;
 }

@@ -16,18 +16,28 @@
 
 </head>
 	<body>
-		<ul class="navigation">
-			<li class="logo">VISUAL ARTS</li>
-			<li class="search"><div pseudo="-webkit-input-placeholder" id="placeholder" style="display: block !important; text-overflow: clip;">SEARCH</div>
-		</ul>
+		<nav>
+			<div class="logo">
+				<a href="#">VISUAL ARTS</a>
+					<style>
+						a{
+							text-decoration:none;
+							}			
+					</style>
+			</div>
+			<div class="search">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<input type="-webkit-input-placeholder" id="placeholder" style="display: block !important; border:none; text-overflow: clip;" placeholder="SEARCH"></input>
+			</div>
+		</nav>
 		<!--Article Name and Intro-->
 		<div class="articleBox">
 			<img src="http://codifyacademy.com/week2/beginner/img/noah.png" alt="profile picture of Noah Andrews">
-			<h1>Noah Andrews</h1>
-			<h2>The World of
+			<p>Noah Andrews</p>/
+			<h1>The World of
 					<br />
-			Charles & Ray Eames</h2>
-			<h3>12 January 2016</h3>
+			Charles & Ray Eames</h1>
+			<h2>12 January 2016</h2>
 				<!--shape of line-->
 			<!--This Box below is set to center,while text maintains a default left-->
 			<p>With a grand sense of adventure, Charles and Ray Eames turned their curiosity and boundless enthusiasm into creations that established them as a truly great husband and wife design team. Their unique synergy led to a whole new look in furniture. Lean and modern. Playful and functional. Sleek, sophisticated and beautifully simple. That was and is the "Eames look".</p>
@@ -42,15 +52,20 @@
 				<footer>- Charles Eames</footer>
 			<p>The loved their work, which was a combination of art and science, design and architecture, process and product, style and function. "The details are not details", said Charles. "They make the product".</p>
 		</div>
-		<div class="chairs">
-			<img src="http://codifyacademy.com/week2/beginner/img/chair2.png">
-			<img src="http://codifyacademy.com/week2/beginner/img/chair3.png">
-			<img src="http://codifyacademy.com/week2/beginner/img/chair4.png">
+		<br />
+		<div class="columns">
+			<div class="topleft"><img src="http://codifyacademy.com/week2/beginner/img/chair2.png" width="400" height="350"></div>
+			<div class="topright"><img src="http://codifyacademy.com/week2/beginner/img/chair3.png" width="420" height="350"></div>
+				<br />
+			<div class="bottom"><img src="http://codifyacademy.com/week2/beginner/img/chair4.png" width="500" height="300"></div>
+		</div>
+		<div>
 			<p>Their own concepts evloved over time, not overnight. As Charles noted about the development of the Moulded Plywood Chairs, "Yes, it was a flash of inspiration", he said, "a kind of 30-year flash".</p>
 			<br />
 			<p>A design critic ounce said that this extraordinary couple "just wanted to make the world a better place". That they did. That also made it a lot more interesting.</p>
 			<!--shape of line-->
 		</div>
+		<br />
 		<div class="likes">
 			<!--heart icon-->
 			<a href="#">
@@ -69,13 +84,12 @@
 				<li>POST COMMENT</li>
 			</ul>
 		</div>
-		<div class="articlenav">
-			<ul>
-				<li>PREVIOUS ARTICLE</li>
+		<ul class="articlenav">
+			<li class="leftarrow">PREVIOUS ARTICLE</li>
 					<!--left arrow icon-->
-				<li>NEXT ARTICLE</li>
+			<li class="rightarrow">NEXT ARTICLE</li>
 					<!--right arrow icon-->
-			</ul>
+		</ul>
 		</div>
 	</body>
 </html>
