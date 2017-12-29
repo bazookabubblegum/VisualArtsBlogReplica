@@ -142,7 +142,7 @@ p {
 
 .columns{
 	width:100%;
-	height:700px;
+	height:550px;
 	display:block;
 	margin:50px auto;	/*get them to stack next to each other*/
 }
@@ -153,30 +153,30 @@ p {
 	margin:0 auto;
 	position:absolute;
 	left:0px;
-	padding:10px 200px;
+	padding:10px 50px 50px 230px;
 }	
 .topright{
 	right:0px;
 	display:inline-block;
 	width:50%;
-	margin:0 auto;
+	margin:10px 15px;
 	position:absolute;
-	padding:10px 25px;
+	padding:1px 20px 10px 25px;
 
 }
-.bottom{
+.bottomright{
 	position:absolute;
-	display:block;
-	width:50%;
-	margin:40px 40px;
-	padding:370px;
+	display:inline-block;
+	width:49%;
+	margin:250px 50px;
+	right:0px;
 }
 p{
 	display:block;
 	margin:auto;
 	text-align:left;
 	width:50%;
-	padding:30px 24px;
+	padding:10px 0px;
 }
 
 .likes{
@@ -208,4 +208,51 @@ p{
 	display:inline-block;
 	position:absolute;
 	right:0px;
+}
+.descriptionbox input{
+	display:block;
+	border-radius:4px;
+	margin:0 auto;
+	/*margin:20px 50px 60px 50px;*/
+	width:100%;
+	left:0;
+	padding:0px 12px;
+	border:1px;
+	text-align:top;
+	box-shadow:inset 0px 1px 1px;
+	line-height: 1.42857143px;
+	resize:auto;
+}
+
+.more li{
+	display:inline-block;
+	text-align: :0px;
+	/*padding:0px 0px 0px 128px;*/
+	margin:1px 20px 10px 40px;
+	width:60px;
+}
+
+.more .comment{
+	display:inline-block;
+	right:0;
+	width:50%;
+	float:right;
+	padding-left:10px;
+}
+
+.articlenav{
+	display: inline-block;
+	margin:0 auto;
+}
+
+.articlenav .leftarrow{
+	float:left;
+	margin:20px 15px;
+	padding:100px;
+}
+
+.articlenav .rightarrow{
+	float:right;
+	margin:20px 15px;
+	padding:100px;
 }
