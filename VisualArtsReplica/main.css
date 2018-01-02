@@ -29,7 +29,7 @@ nav .logo{
 	left:0px;	
 	width:50%;
 	height:20px;
-	padding-left:50px;
+	padding-left:75px;
 	color: #464646;
     font-size: 16px;
     font-weight: bold;
@@ -62,26 +62,32 @@ nav .search{
 	height:75px;
 	border-radius:50px;
 	display:block;
-	margin:auto;
+	margin:30px auto;
+	
 	
 }
 
 
-.articleBox p{
-	font-size:15px;
-	margin:1% 0;
-	text-align: center;
-	font-family:"Lato", sans-serif;
+.articleBox h3{
+	font-size:16px;
+	margin: 0 auto;
+	width:55%;
+	height:100px;
+	line-height:35px;
+	text-align:justify;
+	font-family:"Lato", serif;
+	font-weight:normal;
 }
 
 .articleBox h1{
-	color:#000;
+	color:#242424;
 	font-size:60px;
-	margin:1% 0;
+	margin:1% 0 2%;
 	text-align: center;
 	letter-spacing: -2px;
 	line-height:60px;
-	font-family:"Lato", sans-serif;
+	font-family:"Lora", serif;
+	padding:9px 5px;
 }
 
 .articleBox h2{
@@ -90,23 +96,27 @@ nav .search{
 	margin:5% 0 3%;
 	text-align: center;
 	font-family:'Lato', sans-serif;
+	font-weight:normal;
+
 }
 
 .articleBox p{
 	text-align:center;
-	width:50%;
-	padding-left:338px;
+	width:75%;
 	font-family:"Lato", sans-serif;
-	font-size:14px;
+	font-size:16px;
+	font-weight:normal;
+	color:#000;
+	padding:10px;
 }
 
 .chair{
 	display:block;
 }
 .chair img{
-	margin:auto;
+	margin:0 auto 5%;
 	display:block;
-	padding-top:14px;
+	padding-top:55px;
 	width:710px;
 	height:400px;
 }
@@ -222,6 +232,17 @@ p{
 	box-shadow:inset 0px 1px 1px;
 	line-height: 1.42857143px;
 	resize:auto;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #db940e;
+    margin: 1em auto;
+    padding: 0;
+    width:7.5%;
+
 }
 
 .more li{
